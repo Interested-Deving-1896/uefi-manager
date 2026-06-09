@@ -1,24 +1,75 @@
+[update-readmes]   Mode: rewrite — migrating to template structure...
 # uefi-manager
-Tool for managing UEFI boot entries
 
-[![latest packaged version(s)](https://repology.org/badge/latest-versions/uefi-manager.svg)](https://repology.org/project/uefi-manager/versions)
-[![build result](https://build.opensuse.org/projects/home:mx-packaging/packages/uefi-manager/badge.svg?type=default)](https://software.opensuse.org//download.html?project=home%3Amx-packaging&package=uefi-manager)
-[![Continous Integration](https://github.com/AdrianTM/uefi-manager/actions/workflows/main.yml/badge.svg)](https://github.com/AdrianTM/uefi-manager/actions/workflows/main.yml)
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/uefi-manager)
 
-![image](https://github.com/user-attachments/assets/c76f920b-33e8-424e-a885-7ad26925b508)
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-## Building
+## Architecture
+
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
+
+## Install
+
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
 ```bash
-./build.sh
+git clone https://github.com/Interested-Deving-1896/uefi-manager.git
+cd uefi-manager
 ```
 
-Use `./build.sh --debug` for debug builds or `./build.sh --clang` for clang builds.
+## Usage
 
-## Functionality
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-**Manage UEFI entries** - View, add, modify, and delete UEFI boot entries using efibootmgr
+## Configuration
 
-**EFI stub installer** - Copy kernel and initrd to ESP and create direct UEFI boot entry bypassing GRUB
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-**Frugal EFI stub installer** - Create bootable entries for MX/antiX frugal installations with direct EFI boot
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/uefi-manager`](https://github.com/Interested-Deving-1896/uefi-manager) and mirrored through:
+
+```
+Interested-Deving-1896/uefi-manager  ──►  OpenOS-Project-OSP/uefi-manager  ──►  OpenOS-Project-Ecosystem-OOC/uefi-manager
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+[GPL-3.0](https://github.com/Interested-Deving-1896/uefi-manager/blob/main/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
